@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRecognizerFace.Fx", "FormRecognizerFace.Fx\FormRecognizerFace.Fx.csproj", "{89AB1B6C-013B-4811-8976-21CC6791B00E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facturae", "Facturae\Facturae.csproj", "{135EEEAB-298F-4EFA-A85E-A4CDC6E7137B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRecognizerFace.WebApp", "FormRecognizerFace.WebApp\FormRecognizerFace.WebApp.csproj", "{67D2E6BF-68B4-4D97-9AB0-A2F1AB7DF194}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRecognizerFace.Storage", "FormRecognizerFace.Storage\FormRecognizerFace.Storage.csproj", "{2A7C8A1C-A3F3-452A-B95E-559F6AACBC28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRecognizerFace.KeyVault", "FormRecognizerFace.KeyVault\FormRecognizerFace.KeyVault.csproj", "{2BECE740-27DB-461A-85E6-FAB235AECBB5}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "FormRecognizerFace.LogicApp", "FormRecognizerFace.LogicApp\FormRecognizerFace.LogicApp.deployproj", "{8D5B5576-EB89-486E-B07D-21EADE3F4043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xades Digital Signature", "Xades Digital Signature", "{B05CBB4A-2762-440E-AF19-5CA2193DFF9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5581CD67-B7B0-4120-8CD4-42F498D4DF51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{DA5F329C-4248-4126-A644-1AD9A44EBF20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1A522DC8-6A17-458F-BCE1-3667B86443A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirmaXadesNetCore", "FirmaXadesNetCore\FirmaXadesNetCore.csproj", "{E2F858CA-0D81-40FF-83FB-FA83CCC1A903}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormRecognizerFace.FormRecognizer", "FormRecognizerFace.FormRecognizer\FormRecognizerFace.FormRecognizer.csproj", "{31C20488-72EE-43A0-9F78-2745C534C2DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormRecognizerFace.CosmosDb", "FormRecognizerFace.CosmosDb\FormRecognizerFace.CosmosDb.csproj", "{33DE14B8-5950-4695-BDDD-126863AB8671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89AB1B6C-013B-4811-8976-21CC6791B00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AB1B6C-013B-4811-8976-21CC6791B00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AB1B6C-013B-4811-8976-21CC6791B00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AB1B6C-013B-4811-8976-21CC6791B00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135EEEAB-298F-4EFA-A85E-A4CDC6E7137B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135EEEAB-298F-4EFA-A85E-A4CDC6E7137B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135EEEAB-298F-4EFA-A85E-A4CDC6E7137B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135EEEAB-298F-4EFA-A85E-A4CDC6E7137B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D2E6BF-68B4-4D97-9AB0-A2F1AB7DF194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D2E6BF-68B4-4D97-9AB0-A2F1AB7DF194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D2E6BF-68B4-4D97-9AB0-A2F1AB7DF194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D2E6BF-68B4-4D97-9AB0-A2F1AB7DF194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7C8A1C-A3F3-452A-B95E-559F6AACBC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7C8A1C-A3F3-452A-B95E-559F6AACBC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7C8A1C-A3F3-452A-B95E-559F6AACBC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7C8A1C-A3F3-452A-B95E-559F6AACBC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BECE740-27DB-461A-85E6-FAB235AECBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BECE740-27DB-461A-85E6-FAB235AECBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BECE740-27DB-461A-85E6-FAB235AECBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BECE740-27DB-461A-85E6-FAB235AECBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5B5576-EB89-486E-B07D-21EADE3F4043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5B5576-EB89-486E-B07D-21EADE3F4043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5B5576-EB89-486E-B07D-21EADE3F4043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5B5576-EB89-486E-B07D-21EADE3F4043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F858CA-0D81-40FF-83FB-FA83CCC1A903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F858CA-0D81-40FF-83FB-FA83CCC1A903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F858CA-0D81-40FF-83FB-FA83CCC1A903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F858CA-0D81-40FF-83FB-FA83CCC1A903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C20488-72EE-43A0-9F78-2745C534C2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C20488-72EE-43A0-9F78-2745C534C2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C20488-72EE-43A0-9F78-2745C534C2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C20488-72EE-43A0-9F78-2745C534C2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DE14B8-5950-4695-BDDD-126863AB8671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DE14B8-5950-4695-BDDD-126863AB8671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DE14B8-5950-4695-BDDD-126863AB8671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DE14B8-5950-4695-BDDD-126863AB8671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89AB1B6C-013B-4811-8976-21CC6791B00E} = {DA5F329C-4248-4126-A644-1AD9A44EBF20}
+		{135EEEAB-298F-4EFA-A85E-A4CDC6E7137B} = {1A522DC8-6A17-458F-BCE1-3667B86443A3}
+		{67D2E6BF-68B4-4D97-9AB0-A2F1AB7DF194} = {5581CD67-B7B0-4120-8CD4-42F498D4DF51}
+		{2A7C8A1C-A3F3-452A-B95E-559F6AACBC28} = {1A522DC8-6A17-458F-BCE1-3667B86443A3}
+		{2BECE740-27DB-461A-85E6-FAB235AECBB5} = {1A522DC8-6A17-458F-BCE1-3667B86443A3}
+		{8D5B5576-EB89-486E-B07D-21EADE3F4043} = {DA5F329C-4248-4126-A644-1AD9A44EBF20}
+		{E2F858CA-0D81-40FF-83FB-FA83CCC1A903} = {B05CBB4A-2762-440E-AF19-5CA2193DFF9C}
+		{31C20488-72EE-43A0-9F78-2745C534C2DB} = {1A522DC8-6A17-458F-BCE1-3667B86443A3}
+		{33DE14B8-5950-4695-BDDD-126863AB8671} = {1A522DC8-6A17-458F-BCE1-3667B86443A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25C009A1-55EF-4D4C-B522-D770E50A1D7D}
+	EndGlobalSection
+EndGlobal

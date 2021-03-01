@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-FormRecognizerFace.WebApp_Server-c72e38a8-47e9-42b3-ac2e-4821e0ee0a1a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.Azure.AppConfiguration.AspNetCore" Version="4.1.0" NoWarn="NU1605" />    
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.4.1" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FormRecognizerFace.CosmosDb\FormRecognizerFace.CosmosDb.csproj" />
+    <ProjectReference Include="..\FormRecognizerFace.Storage\FormRecognizerFace.Storage.csproj" />
+  </ItemGroup>
+
+</Project>

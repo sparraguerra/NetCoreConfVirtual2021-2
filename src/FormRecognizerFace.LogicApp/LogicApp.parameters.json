@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicAppName": {
+      "value": "FormRecognizerFace"
+    },
+    "azureblob_1_authType": {
+      "value": "anonymous"
+    },
+    "azureblob_1_privacySetting": {
+      "value": "None"
+    },
+    "azureblob_1_accessKey": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/ef37f62e-4fb1-40a8-bc2a-0fc21e76dd81/resourceGroups/FormRecognizerFace/providers/Microsoft.KeyVault/vaults/FormRecognizerFace-KV"
+        },
+        "secretName": "FormRecognizerFace"
+      }
+    }
+  }
+}
